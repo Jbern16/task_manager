@@ -9,7 +9,7 @@
     <section class= "container">
       <h1> All Tasks </h1>
         <% @tasks.each do |task| %>
-        <li><h3><%= task %>: <a class= "btn btn-primary" href="/tasks/<%= task.id %>"><%= task.title  %></a></h3>
+        <li><h3><%= task.id %>: <a class= "btn btn-primary" href="/tasks/<%= task.id %>"><%= task.title  %></a></h3>
       <% end %></li>
     </section>
   </body>
