@@ -1,15 +1,3 @@
 ---
-tasks:
-- id: 1
-  title: make cookie
-  description: "yum\r\n"
-- id: 2
-  title: make lunch
-  description: "yum\r\n"
-- id: 3
-  title: ''
-  description: ''
-- id: 4
-  title: ''
-  description: ''
+tasks: []
 total: 4
